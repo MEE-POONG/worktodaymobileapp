@@ -52,7 +52,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     String img64 = base64Encode(bytes);
 
     var url = 'http://192.168.1.23:9000/api/user';
-    var response = await http.post(url,
+    await http.post(Uri.parse(url),
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
         },
