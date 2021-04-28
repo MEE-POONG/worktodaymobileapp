@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.worktodaymobileapp">
+    package="com.meepoong.worktodaymobileapp">
    <application
         android:label="worktodaymobileapp"
         android:icon="@mipmap/ic_launcher">
